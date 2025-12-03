@@ -17,4 +17,5 @@ build/
 .idea/
 
 # files
-QuicknotesTests/QuicknotesUITests/
+.QuicknotesTests/
+.QuicknotesUITests/
