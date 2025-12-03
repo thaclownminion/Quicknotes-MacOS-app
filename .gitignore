@@ -1,21 +1,37 @@
-# Logs
-logs
-*.log
-
-# Dependency directories
-node_modules/
-
-# Build output
-dist/
+# Xcode
 build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcworkspace/xcuserdata/
 
-# Environment variables
-.env
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
 
-# IDE files
-.vscode/
-.idea/
+# CocoaPods
+Pods/
+Podfile.lock
 
-# files
-.QuicknotesTests/
-.QuicknotesUITests/
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Gebouwde apps en archives
+*.dSYM.zip
+*.dSYM
+
+# Provisioning profiles
+*.mobileprovision
+*.provisionprofile
+
+# Crashlytics
+crashlytics-build.properties
+crashlytics.properties
+
+# Swift support mappen en bestanden
+.gitignore
+QuicknotesTests/
+QuicknotesUITests/
