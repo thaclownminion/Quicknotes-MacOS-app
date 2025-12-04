@@ -108,7 +108,7 @@ struct EditorView: View {
                         HStack(spacing: 4) {
                             Image(systemName: "square.and.arrow.down")
                                 .font(.system(size: 12))
-                            Text("Save Document")
+                            Text("Save")
                                 .font(.system(size: 13))
                         }
                     }
@@ -119,7 +119,7 @@ struct EditorView: View {
                         HStack(spacing: 4) {
                             Image(systemName: "folder.badge.plus")
                                 .font(.system(size: 12))
-                            Text("Import Document")
+                            Text("Import")
                                 .font(.system(size: 13))
                         }
                     }
@@ -130,7 +130,7 @@ struct EditorView: View {
                     
                     Button(action: newDocument) {
                         HStack(spacing: 4) {
-                            Text("New Document")
+                            Text("New")
                                 .font(.system(size: 13))
                             Image(systemName: "plus")
                                 .font(.system(size: 12))
@@ -166,7 +166,7 @@ struct EditorView: View {
                         HStack(spacing: 4) {
                             Image(systemName: "doc.text")
                                 .font(.system(size: 12))
-                            Text("Open Previous Documents")
+                            Text("Recents")
                                 .font(.system(size: 13))
                         }
                     }
@@ -343,7 +343,7 @@ struct LibraryView: View {
                         HStack(spacing: 4) {
                             Image(systemName: "xmark.circle")
                                 .font(.system(size: 12))
-                            Text("Quit App")
+                            Text("Quit")
                                 .font(.system(size: 13))
                             
                         }
@@ -369,7 +369,7 @@ struct LibraryView: View {
                 // Notes list
                 ScrollView {
                     VStack(alignment: .leading, spacing: 0) {
-                        Text("Previous Documents")
+                        Text("Recents")
                             .font(.system(size: 24, weight: .light))
                             .padding(.horizontal, 20)
                             .padding(.top, 20)
