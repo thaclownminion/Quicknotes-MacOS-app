@@ -18,4 +18,12 @@ When you want to import your files you made in another app just press the "impor
 You will only be able to import .md and .txt files
 
 ## Quitting the app
-Press on the "Recents" on the bottom left and press the "Quit" button on the top right next to the "Back" button. 
+Press on the "Recents" on the bottom left and press the "Quit" button on the top right next to the "Back" button.
+
+# Credits
+Creator: Kai Rozema
+
+For sugestions: https://github.com/thaclownminion/MacOS-eye-care/issues
+Contact: thaclownminion@users.noreply.github.com
+
+If you have any good idea for new features or a new app please contact me, I would love to help!
